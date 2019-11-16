@@ -1,6 +1,6 @@
 #!/bin/bash
 
-os=$(echo -e "debian\nubuntu\nkali\narch\nfedora\ncentos" | rofi -dmenu)
+os=$(echo -e "debian\\nubuntu\\nkali\\narch\\nfedora\\ncentos" | rofi -dmenu)
 
 if [ "$os" = "debian" ]; then
   fullName="library/debian"
